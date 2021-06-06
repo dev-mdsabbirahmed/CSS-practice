@@ -1,0 +1,594 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: gray;
+}
+
+/* Master Title css start*/
+.mtitle {
+    text-align: center;
+    margin: 50px auto 30px;
+}
+
+.mtitle h1 {
+    font-family: Impact;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 6px rgb(255, 153, 51);
+}
+/* Master Title css start*/
+
+/* Bangladesh Flag css start */
+
+/* OPTION-1: BASIC WITH OVERFLOW */
+.green{
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto 30px;
+    overflow: hidden;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 24px auto;
+} 
+
+
+/* 
+OPTION-2: WITH POSITION
+.green{
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto 30px;
+    position: relative;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+} */
+
+/* Bangladesh Flag css end */
+
+/* Common css for P TAG start */
+p{
+  font-family: arial;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+/* Common css for P TAG end */
+
+/* Germany Flag css start */
+.germany{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(221, 0, 0);
+    border-top: 100px solid black;
+    border-bottom: 100px solid rgb(255, 206, 0);
+    margin: 50px auto 30px;
+}
+
+/* Germany Flag css end */
+
+/* Argentina Flag css start */
+.argentina{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid skyblue;
+    border-bottom: 100px solid skyblue;
+    text-align: center;
+    margin: 50px auto 30px;
+    
+}
+
+.argentina img{
+    width: 90px;
+    margin: 5px auto;
+}
+/* Argentina Flag css end */
+
+/* Canada Flag css start */
+.canada{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-left: 125px solid red;
+    border-right: 125px solid red;
+    text-align: center;
+    margin: 50px auto 30px;
+    overflow: hidden;
+}
+
+.canada img{
+    width: 195px;
+    margin: 25px auto;
+}
+/* Canada Flag css end */
+
+/* India Flag css start */
+.india{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid rgb(255, 153, 51);
+    border-bottom: 100px solid rgb(19, 136, 8);
+    text-align: center;
+    margin: 50px auto 30px;
+    overflow: hidden;
+}
+
+.india img{
+    width: 90px;
+    margin: 5px auto;
+}
+/* India Flag css end */
+
+/* Japan Flag css start */
+.white{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    /* border: 2px solid whitesmoke; */
+    margin: 50px auto 30px;
+    overflow: hidden;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+/* Japan Flag css end */
+
+/* Indesia Flag css start */
+.indonesia{
+    width: 500px;
+    height: 150px;
+    background-color: red;
+    border-bottom: 150px solid white;
+    /* outline: 2px solid whitesmoke; */
+    margin: 50px auto 30px;
+}
+
+/* Indonesia Flag css end */
+
+/* Russia Flag css start */
+.russia{
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+    border-top: 100px solid white;
+    border-bottom: 100px solid red;
+    /* outline: 2px solid whitesmoke; */
+    margin: 50px auto 30px;
+    
+}
+
+/* Russia Flag css start */
+
+/* Poland Flag css start */
+.poland{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border-bottom: 150px solid red;
+    /* outline: 2px solid whitesmoke; */
+    margin: 50px auto 30px;
+}
+
+/* Poland Flag css end */
+
+/* France Flag css start */
+.france{
+    width: 166.66px;
+    height: 300px;
+    background-color: white;
+    border-left: 166.67px solid rgb(0, 85, 164);
+    border-right: 166.67px solid rgb(239, 65, 53);
+    margin: 50px auto 30px;
+}
+
+/* France Flag css end */
+
+/* Italy Flag css start */
+.italy{
+    width: 166.66px;
+    height: 300px;
+    background-color: rgb(244, 245, 240);
+    border-left: 166.67px solid rgb(0, 140, 69);
+    border-right: 166.67px solid rgb(205, 33, 42);
+    margin: 50px auto 30px;
+}
+
+/* Italy Flag css end */
+
+/* Romania Flag css start */
+.romania{
+    width: 166.66px;
+    height: 300px;
+    background-color: rgb(252, 209, 22);
+    border-left: 166.67px solid rgb(0, 43, 127);
+    border-right: 166.67px solid rgb(206, 17, 38);
+    margin: 50px auto 30px;
+}
+
+/* Romania Flag css end */
+
+/* Ireland Flag css start */
+.ireland{
+    width: 166.66px;
+    height: 300px;
+    background-color: white;
+    border-left: 166.67px solid rgb(22, 155, 98);
+    border-right: 166.67px solid rgb(255, 136, 62);
+    margin: 50px auto 30px;
+}
+
+/* Ireland Flag css end */
+
+/* Belgium Flag css start */
+.belgium{
+    width: 166.66px;
+    height: 300px;
+    background-color: rgb(253, 218, 36);
+    border-left: 166.67px solid black;
+    border-right: 166.67px solid rgb(239, 51, 64);
+    margin: 50px auto 30px;
+}
+
+/* Belgium Flag css end */
+
+/* Peru Flag css start */
+.peru{
+    width: 166.66px;
+    height: 300px;
+    background-color: white;
+    border-left: 166.67px solid rgb(217, 16, 35);
+    border-right: 166.67px solid rgb(217, 16, 35);
+    margin: 50px auto 30px;
+}
+
+/* Peru Flag css end */
+
+/* Ukraine Flag css start */
+.ukraine{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(0, 91, 187);
+    border-bottom: 150px solid rgb(255, 213, 0);
+    margin: 50px auto 30px;
+}
+
+/* Ukraine Flag css end */
+
+/* Hungery Flag css start */
+.hungary{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid rgb(205, 42, 62);
+    border-bottom: 100px solid rgb(67, 111, 77);
+    margin: 50px auto 30px;
+}
+
+/* Hungery Flag css end */
+
+/* Bulgaria Flag css start */
+.bulgaria{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(0, 150, 110);
+    border-top: 100px solid white;
+    border-bottom: 100px solid rgb(214, 38, 18);
+    /* outline: 2px solid whitesmoke; */
+    margin: 50px auto 30px;
+}
+
+/* Bulgaria Flag css end */
+
+/* Netherlands Flag css start */
+.netherlands{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid rgb(174, 28, 40);
+    border-bottom: 100px solid rgb(33, 70, 139);
+    margin: 50px auto 30px;
+}
+
+/* Netherlands Flag css end */
+
+/* Austria Flag css start */
+.austria{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid rgb(237, 41, 57);
+    border-bottom: 100px solid rgb(237, 41, 57);
+    margin: 50px auto 30px;
+}
+
+/* Austria Flag css end */
+
+/* Colombia Flag css start */
+.colombia{
+    width: 500px;
+    height: 75px;
+    background-color: rgb(0, 56, 147);
+    border-top: 150px solid rgb(252, 209, 22);
+    border-bottom: 75px solid rgb(206, 17, 38);
+    margin: 50px auto 30px;
+}
+
+/* Colombia Flag css end */
+
+/* Nigeria Flag css start */
+.nigeria{
+    width: 166.66px;
+    height: 300px;
+    background-color: white;
+    border-left: 166.67px solid rgb(0, 135, 81);
+    border-right: 166.67px solid rgb(0, 135, 81);
+    margin: 50px auto 30px;
+}
+
+/* Nigeria Flag css end */
+
+/* Spain Flag css start */
+.spain{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(241, 191, 0);
+    border-top: 75px solid rgb(170, 21, 27);
+    border-bottom: 75px solid rgb(170, 21, 27);
+    margin: 50px auto 30px;
+    overflow: hidden;
+}
+
+.spain img{
+    width: 110px;
+    margin: 20px 0px 20px 100px;
+}
+
+/* Spain Flag css end */
+
+/* Mongolia Flag css start */
+.mongolia{
+    width: 166.66px;
+    height: 300px;
+    background-color: rgb(1, 81, 151);
+    border-left: 166.67px solid rgb(196, 39, 47);
+    border-right: 166.67px solid rgb(196, 39, 47);
+    margin: 50px auto 30px;
+    
+}
+
+.mongolia img{
+    width: 105px;
+    margin: 35px 0px 35px -135.33px;
+}
+
+/* Mongolia Flag css end */
+
+/* Maldives Flag css start */
+.maldives{
+    width: 350px;
+    height: 150px;
+    background-color: rgb(0, 126, 58);
+    border-top: 75px solid rgb(210, 16, 52);
+    border-bottom: 75px solid rgb(210, 16, 52);
+    border-left: 75px solid rgb(210, 16, 52);
+    border-right: 75px solid rgb(210, 16, 52);
+    margin: 50px auto 30px;
+    overflow: hidden;
+    
+}
+
+.moon_mdv{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: -13px 0px 0px 6px white;
+    margin: 30px 25px 30px 150px;
+}
+
+/* Maldives Flag css end */
+
+/* Pakistan Flag css start */
+.pakistan{
+    width: 375px;
+    height: 300px;
+    background-color: rgb(1, 65, 28);
+    border-left: 125px solid white;
+    /* outline: 2px solid whitesmoke; */
+    margin: 50px auto 30px;
+    overflow: auto;
+}
+
+.moon_pk{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: -25px 14px 0px 6px white;
+    margin: 65px 25px 65px 130px;
+    overflow: hidden;
+}
+
+.star_rotate p{
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+/* Pakistan Flag css end */
+
+/* Vietnam Flag css start */
+.vietnam{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(218, 37, 29);
+    text-align: center;
+    margin: 50px auto 30px;
+    
+}
+
+.vietnam img{
+    width: 200px;
+    margin: 50px auto;
+}
+
+/* Vietnam Flag css end */
+
+/* China Flag css start */
+.china{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(222, 41, 16);
+    margin: 50px auto 30px;
+    
+}
+
+.china img{
+    width: 200px;
+    margin: 15px 0px 0px 30px;
+}
+
+/* China Flag css end */
+
+/* Afghanistan Flag css start */
+.afghanistan{
+    width: 166.66px;
+    height: 300px;
+    background-color: rgb(211, 32, 17);
+    border-left: 166.67px solid black;
+    border-right: 166.67px solid rgb(0, 122, 54);
+    margin: 50px auto 30px;
+}
+
+.afghanistan img{
+    width: 230px;
+    margin: 30px 0px 30px -32px;
+}
+
+
+/* Afghanistan Flag css end */
+
+/* Bahamas Flag css start */
+.bahamas{
+    width: 500px;
+    height: 300px;
+    margin: 50px auto 30px;
+    position: relative;
+}
+
+.bahamas .bmiddle{
+    width: 500px;
+    height: 100px;
+    background-color: #FFC72C;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 0px;
+    right: 0px;
+}
+
+.bahamas .top{
+    width: 500px;
+    height: 100px;
+    background-color: #00778B;
+    position: absolute;
+    top: 0px;
+    bottom: 200px;
+    left: 0px;
+    right: 0px;
+}
+
+.bahamas .bottom{
+    width: 500px;
+    height: 100px;
+    background-color: #00778B;
+    position: absolute;
+    top: 200px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.bahamas .triangle_left{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 200px solid #000;
+}
+
+
+/* Bahamas Flag css end */
+
+
+
+/* Bhutan Flag css start */
+.bhutan{
+    width: 500px;
+    height: 300px;
+    margin: 50px auto 30px;
+    position: relative;
+}
+
+.bhutan .lemon{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-top: 300px solid transparent;
+    border-right: 500px solid #FFD520;
+}
+
+.bhutan .orange{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-bottom: 300px solid transparent;
+    border-left: 500px solid #FF4E12;
+}
+
+.bhutan img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+}
+
+
+/* Bhutan Flag css end */

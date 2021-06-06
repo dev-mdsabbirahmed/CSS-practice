@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.main_cvbox {
+    width: 60%;
+    background-color: #fff;
+    margin: 30px auto;
+    overflow: hidden;
+    box-shadow: 6px 10px 15px rgb(63, 57, 57);
+
+}
+
+/* leftbox css start*/
+
+.m_leftbox {
+    width: 25%;
+    height: 1450px;
+    background-color: #484B56;
+    float: left;
+    padding: 30px 15px 10px 15px;
+    box-sizing: border-box;
+    
+} 
+
+h1 {
+    font-family: arial;
+    font-size: 38px;
+    font-weight: bold;
+    color: #fff;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 22px;
+    font-weight: normal;
+    color: #fff;
+}
+
+p {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    padding: 5px 0px 5px 0px;
+}
+
+.m_leftbox img {
+    width: 100%;
+    padding: 15px 0px 10px 0px;
+}
+
+.personal_data {
+    width: 100%;
+    background-color: #333842;
+    color: #fff;
+    float: left;
+    padding: 2px 14px 2px 0px;
+    margin-bottom:10px;
+}
+
+.pdata img {
+    width: 16px;
+    height: 16px;
+    padding: 0px;
+}
+
+.social_m {
+    width: 100%;
+    background-color: #333842;
+    color: #fff;
+    float: left;
+    padding: 2px 14px 2px 0px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.scm img {
+    width: 16px;
+    height: 18px;
+    padding: 0px;
+}
+
+.mysk {
+    width: 100%;
+    background-color: #333842;
+    color: #fff;
+    float: left;
+    padding: 2px 14px 2px 0px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.mysk_p {
+
+}
+
+.soft {
+    width: 100%;
+    background-color: #333842;
+    color: #fff;
+    float: left;
+    padding: 2px 14px 2px 0px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.soft_b {
+
+}
+
+.container-1 {
+    width: 100%; 
+    background-color: #ddd; 
+    
+}
+
+.msof {
+    width: 90%; 
+    background-color: #2043b4;
+}
+
+.container-2 {
+    width: 100%; 
+    background-color: #ddd; 
+    
+}
+
+.mail {
+    width: 80%; 
+    background-color: #2043b4;
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    color: white;
+}
+
+/* leftbox css end*/
+
+
+/* rightbox css start*/
+
+.m_rightbox {
+    width: 75%;
+    height: 1450px;
+    background-color: white;
+    padding: 30px 30px 10px 15px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.m_rightbox h2 {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #626662;
+    padding: 10px 0px 10px 0px;
+}
+
+.m_rightbox h3 {
+    font-family: arial;
+    font-size: 22px;
+    font-weight: bold;
+    color: #626662;
+    padding-top: 10px;
+}
+
+.m_rightbox h4 {
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #626662;
+}
+
+.m_rightbox p {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    color: #626662;
+    padding: 10px 0px 15px 0px;
+}
+
+.m_rightbox h4 span {
+    font-style: italic;
+    
+}
+
+.exper ul {
+    font-family: arial;
+    font-size: 16px;
+    color: #626662;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    list-style: square;
+}
+
+.edu {
+    width: 100%;
+}
+
+.edud-1 {
+    width: 15%;
+    float: left;
+
+}
+
+
+.edud-2 {
+    width: 85%;
+    float: left;
+}
+
+.edud-2 span {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.act {
+    width: 100%;
+}
+
+.act-1 {
+    width: 15%;
+    float: left;
+}
+
+
+.act-2 {
+    width: 85%;
+    float: left;
+}
+
+.act-2 span {
+    font-weight: bold;
+}
+
+
+.intt {
+    width: 100%;
+}
+
+
+.intt-1 {
+    width: 85%;
+    float: right;
+    
+}
+
+.intt-1 ul {
+    font-family: arial;
+    font-size: 16px;
+    color: #626662;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    margin-left: 0px;
+    list-style: square;
+}
+
+/* rightbox css end*/

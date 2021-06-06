@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+}
+
+.team {
+    background-color:#424242;
+    text-align: center;
+    padding: 40px 0px;
+    width: 33.33%;
+    border-bottom: 5px solid red;
+    float: left;
+}
+
+.team h2 {
+    font-family: impact;
+    font-weight: normal;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.team img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.team p {
+    font-size: 14px;
+    color: yellow;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.team:nth-child(even) {
+    background-color: #093b2c;
+}
+
+

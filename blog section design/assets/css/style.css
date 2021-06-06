@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #5bccf6;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.post{
+    width: 500px;
+    padding: 50px;
+    margin: 50px auto 0px;
+    background-color: #fcde67;
+    border-left: 5px solid rgb(98, 128, 39);
+    border-bottom: 5px solid rgb(136, 165, 77);
+
+}
+
+.post h2{
+    font-size: 30px;
+    color: #04a6f3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 5px black;
+    padding-bottom: 10px;
+}
+
+.post img{
+    width: 300px;
+    border-radius: 0px 25px 0px 0px;
+    box-shadow: 2px 5px 8px black;
+}
+
+.post p{
+    color: green;
+    font-family: lobster;
+    text-align: justify;
+    padding-top: 10px;
+}
+
